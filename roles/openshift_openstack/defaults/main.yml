@@ -95,4 +95,4 @@ openshift_openstack_lb_volume_size: 5
 openshift_openstack_ephemeral_volumes: false
 
 # User commands for cloud-init executed on all Nova servers provisioned
-openshift_openstack_provision_user_commands: []
+openshift_openstack_cloud_init_runcmd: []
