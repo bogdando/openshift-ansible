@@ -93,3 +93,6 @@ openshift_openstack_node_volume_size: "{{ openshift_openstack_docker_volume_size
 openshift_openstack_etcd_volume_size: 2
 openshift_openstack_lb_volume_size: 5
 openshift_openstack_ephemeral_volumes: false
+
+# User commands for cloud-init executed on all Nova servers provisioned
+openshift_openstack_cloud_init_runcmd: []
